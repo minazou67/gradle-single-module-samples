@@ -10,13 +10,13 @@ This is a sample of Gradle single-module.
 * Dependencies
 * Artifacts
   * jar
-  * Sources jar
-  * JavaDoc jar
+  * sources-jar
+  * javadoc-jar
 * Jar task
   * LICENSE
   * Manifest
 * Reporting
-  * JavaDoc
+  * Tests
   * JaCoCo
   * Checkstyle
   * FindBugs
