@@ -6,6 +6,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'findbugs'
 apply plugin: 'jdepend'
 apply plugin: 'pmd'
+apply plugin: 'build-dashboard'
 
 group = 'org.minazou67'
 version = '1.0.0-SNAPSHOT'
@@ -101,7 +102,8 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
     from javadoc.destinationDir
 }
 
-task javancss << {
+task javancss() {
+    description = 'Run JavaNCSS analysis for main classes.'
     def javancssDir = file("$project.buildDir/reports/javancss")
     javancssDir.mkdirs()
     ant {
