@@ -23,3 +23,6 @@ This is a sample of Gradle single-module.
   * NCSS
   * JDepend
   * PMD
+  * CPD
+  * htmlDependencyReport
+  * buildDashboard
