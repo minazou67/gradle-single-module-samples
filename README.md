@@ -1,4 +1,4 @@
-Gradle single-module sample
+Gradle single-module samples
 ==========================
 
 This is a sample of Gradle single-module.
