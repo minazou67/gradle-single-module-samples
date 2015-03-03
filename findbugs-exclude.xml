@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FindBugsFilter>
+
+<FindBugsFilter>
+
+  <!-- EI: May expose internal representation by returning reference to mutable object -->
+  <BugPattern name="EI_EXPOSE_REP" />
+  <!-- EI2: May expose internal representation by incorporating reference to mutable object -->
+  <BugPattern name="EI_EXPOSE_REP2" />
+
+</FindBugsFilter>
