@@ -67,7 +67,7 @@ jacocoTestReport {
 check.dependsOn(jacocoTestReport)
 
 checkstyle {
-    toolVersion = '6.0'
+    toolVersion = '6.4.1'
     showViolations = true
     configFile = file("$rootDir/checkstyle-checker.xml")
     checkstyleTest.enabled = false
@@ -139,7 +139,7 @@ check.dependsOn(cpd)
 
 task wrapper(type: Wrapper) {
     description = 'Download Gradle and generate wrapper scripts.'
-    gradleVersion = '2.1'
+    gradleVersion = '2.3'
 }
 
 artifacts {
